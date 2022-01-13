@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <header class="header">
+<body class="body">
+    <header class="header " >
     <div class="conteiner">
         <div class="header-navbar">
             <a href="#">
@@ -36,24 +36,30 @@
                 </li>
             </ul>
             <a href="#" class="menu-link burger-btn">&#9776;</a>
-        </div>
-        <div class="header-my-info">
-            <div class="header-my-info-text">
-                <span class="span-header-text">Hello</span>
-                 <h1 class="header-h1">I’m Denis <br> Seryakov</h1>
-                 <p class="header-p">
-                    I've been doing web design, front-end and <br> back-end development for
-                     a year now. Do you <br> need a website 
-                    design, site layout, or maybe a <br> turnkey website? Then contact me
-                 </p>
-                 <a href="#3" class="a-header-btv">Contact me</a>
-            </div>
-            <div class="header-my-info-photo">
-                    <img src="img/logo1.png" alt="photo-my" class="photo-my">
-            </div>
+       
         </div>
     </div>
     </header>
+    <section class="section-my-info">
+        <div class="conteiner">
+            <div class="header-my-info">
+                <div class="header-my-info-text">
+                    <span class="span-header-text">Hello</span>
+                     <h1 class="header-h1">I’m Denis <br> Seryakov</h1>
+                     <p class="header-p">
+                        I've been doing web design, front-end and <br> back-end development for
+                         a year now. Do you <br> need a website 
+                        design, site layout, or maybe a <br> turnkey website? Then contact me
+                     </p>
+                     <a href="#3" class="a-header-btv">Contact me</a>
+                </div>
+                <div class="header-my-info-photo">
+                        <img src="img/logo1.png" alt="photo-my" class="photo-my">
+                </div>
+            </div>
+        </div>
+        
+    </section>
     <section class="section-info">
         <div class="conteiner">
             <div class="section-conteiner1">
@@ -90,13 +96,13 @@
                     </div>
                 </div>
             </div>
-            <div class="section-conteiner2">
+            <div class="section-conteiner2 "id="1">
                 <div class="section-conteiner2-bar1">
                     <img src="img/mu-photo1.png" alt="my-photo" class="my-photo1 ">
                     <img src="img/photo-my2.png" alt="my-photo" class="my-photo2 ">
                 </div>
                 <div class="section-conteiner2-bar2">
-                    <h1 class="section-conteiner2-bar1-h1" id="1">
+                    <h1 class="section-conteiner2-bar1-h1" >
                         About me
                     </h1>
                     <p class="section-conteiner2-bar2-p">
@@ -219,7 +225,24 @@
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <div class=" burger-menu">
+        <ul class="burger-menu-ul">
+            <li class="burger-menu-item">
+                <a href="#1" class="burger-menu-link "  >Home</a>
+            </li>
+            <li class="burger-menu-item"> 
+                <a href="#1" class="burger-menu-link one"  >About me</a>
+            </li>
+            <li class="burger-menu-item">
+                <a href="#2" class="burger-menu-link two"  >Portfolio</a>
+            </li>
+            <li class="burger-menu-item">
+                <a href="#3" class="burger-menu-link fre">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <script src="burger.js"></script>
+    <script src="slaider.js"></script>
 </body>
 </html>
 
